@@ -1,0 +1,187 @@
+html {
+    font-family: 'Kumbh Sans', sans-serif;
+    user-select: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+    background-repeat:no-repeat;
+}
+#images2{
+    display: none;
+}
+
+main {
+    width: 327px;
+    margin: auto;
+    margin-top: 148px;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+    border-radius: 23px;
+
+}
+
+#images {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#woman {
+    width: 236.85px;
+    height: 139.37px;
+    margin: auto;
+    margin-top: -165px;
+}
+
+#pattern {
+    width: 186.85px;
+    margin: auto;
+    margin-top: 0px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 63px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #1E1F36;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #4B4C5F;
+    cursor: pointer;
+    user-select: none;
+}
+
+h6:hover {
+    background-color: #f2eef5;
+
+}
+
+.question {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: auto;
+}
+
+button {
+    margin-left: 10px;
+    margin-left: auto;
+    background-color: transparent;
+    border-width: 0px;
+    cursor: pointer;
+    user-select: none;
+}
+
+button:hover {
+    background-color: #e6e0eb;
+    border-radius: 100%;
+
+}
+
+section {
+    width: 279px;
+    margin: auto;
+}
+
+.divider {
+    width: 279px;
+    height: 1px;
+    background: #E8E8EA;
+    margin: auto;
+    margin-top: 18px;
+}
+
+.question1 {
+    margin-top: 40px;
+}
+
+.nextquestion {
+    margin-top: 19px;
+}
+
+.lastspan {
+    height: 28px;
+    background-color: transparent;
+}
+
+.answer {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #787887;
+    margin-top: 13px;
+    display: none;
+}
+
+.answer:hover {
+    cursor: pointer;
+
+}
+
+@media (min-width:1440px) {
+    main {
+        width: 920px;
+    }
+
+    #images{
+        display: none;
+
+    }
+    #images2{
+        display: block;
+        height: 600px;
+    }
+    #desktop{
+        display: flex;
+        flex-direction: row;
+    }
+    h6:hover{
+        color: #F47B56;
+        background-color: transparent;
+    }
+    #woman2{
+        position: relative;
+        top: -900px;
+        left:-80px;
+    }
+    #pattern2{
+        position: relative;
+        top: -300px;
+        left:-570px;
+    }
+    #boxx{
+        position: relative;
+        bottom: 545px;
+        right: 93px;
+        margin-bottom: -300px;
+    }
+    section{
+        width: 400px;
+        position: relative;
+        right: 460px;
+        bottom: 50px;
+    }
+    #hid{
+        overflow: hidden;
+        height: 600px;
+    }
+    main{
+        margin-top: 129px;
+
+    }
+    h1{
+        margin-top: 65px;
+    }
+    
+
+}
